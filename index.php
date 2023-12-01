@@ -1,3 +1,3 @@
-﻿<?php
+<?php
 
-echo 'Hello World!';
+echo 'Hello Diet Sentry 2.0 World!';
