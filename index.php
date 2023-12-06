@@ -5,18 +5,16 @@
 <meta charset="UTF-8">
 <!-- myFirst.html -->
 
-<title>My very first web page!</title>
+<title>Diet Sentry</title>
 </head>
 
 <body>
 
-<h1>This is my first web page!</h1>
-
-<p>
-This is the first web page I've ever made,
-and I'm extremely proud of it.
-It is so cool!
-</p>
+<?php
+    $firstName = "John";
+    $lastName ="Doe";
+    print "<p>Hello $firstName $lastName!</p>";
+?>
 
 </body>
 </html>
