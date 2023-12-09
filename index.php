@@ -2,20 +2,38 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<!-- myFirst.html -->
-
-<title>Diet Sentry</title>
+    <meta charset="UTF-8">
+    <title>Diet Sentry</title>
+    <style type="text/css">
+        h1 {
+            font: 22pt "arial Black";
+            text-align: center;
+            background-color: aquamarine;
+        }
+        h2 {
+            font: 18pt "arial Black";
+        }
+        li { 
+            font: 12pt "arial"; 
+        }
+    </style>
 </head>
 
 <body>
-
-    <?php
-    $firstName = "John";
-    $lastName ="Doe";
-    print "<p>Hello $firstName $lastName!</p>";
-    ?>
-    <a href="DietSentry.zip" download> Diet Sentry 2.0 zip file</a>
-
+    <!-- Write your comments here -->
+    <h1>Diet Sentry 2.0 windows application</h1>
+    <hr/>
+    <a href="DietSentry.zip" download> <h2>Download</h2> </a>
+    <ul>
+        <li>Click on above link</li>
+        <li>Extract All, Use default destination and show extracted files when complete</li>
+        <li>Enter DietSentry directory</li>
+        <li>Run setup.exe</li>
+        <li>If file is protected by Windows Defender press "more info" in dialog and then "Run anyway"</li>
+        <li>Press "install"</li>
+        <li>App will open, Pin to taskbar</li>
+        <li>Next time run as administrator to avoid Windows Defender dialog</li>
+    </ul>
+    <hr/>
 </body>
 </html>
