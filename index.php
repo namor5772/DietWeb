@@ -29,6 +29,7 @@
     <p>It contains an Australian based foods database with around 1800 foods using the sensible units, kJ, g, mg and mL, and the d-MMM-yy HH:mm DateTime format. It also contains selected commercial foods based on their mandated Nutritional Information Panels.</p>
     <p>When a food is consumed it is selected and an amount eaten entered. This appends the details to a DateTime stamped record. The cumulative totals of the daily Energy and nutrients can then be monitored.</p>
     <p>New foods can be manually added to the database. For convenience it is also possible to add a recipe to the foods database. Of course foods can be deleted and edited, this includes eaten foods.</p>
+    <p>The application source can be cloned into Visual Studio for compiling from the git repository <a href="https://github.com/namor5772/DietSentry">https://github.com/namor5772/DietSentry</a> </p>
 <hr/>
     <a href="DietSentry.zip" download> <h2>Download</h2> </a>
     <ul>
@@ -41,18 +42,18 @@
         <li>App will open, Pin to taskbar</li>
         <li>Next time run as administrator to avoid Windows Defender dialog</li>
     </ul>
-    <hr/>
-        <p>
-            Splash Screen
-        </p>
-        <p>        
-            <img src="DietSentry2.jpg"/>
-        </p>
-    <hr/>
-        <p>
-            Main Form
-        </p>
-        <p><img src="Main2.jpg"/></p>
-    <hr/>
+<hr/>
+    <p>
+        Splash Screen
+    </p>
+    <p>        
+        <img src="DietSentry2.jpg"/>
+    </p>
+<hr/>
+    <p>
+        Main Form
+    </p>
+    <p><img src="Main2.jpg"/></p>
+<hr/>
 </body>
 </html>
