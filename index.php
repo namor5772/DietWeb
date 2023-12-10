@@ -19,6 +19,11 @@
         p {
             font: 12pt "arial";
         }
+        img {
+            max-width: 90%;
+            height: auto;
+            border: 5px solid aquamarine;
+        }        
     </style>
 </head>
 
@@ -33,14 +38,14 @@
 <hr/>
     <a href="DietSentry.zip" download> <h2>Download</h2> </a>
     <ul>
-        <li>Click on above link</li>
+        <li>Click on the above link</li>
         <li>Extract All, Use default destination and show extracted files when complete</li>
         <li>Enter DietSentry directory</li>
         <li>Run setup.exe</li>
         <li>If file is protected by Windows Defender press "more info" in dialog and then "Run anyway"</li>
         <li>Press "install"</li>
         <li>App will open, Pin to taskbar</li>
-        <li>Next time run as administrator to avoid Windows Defender dialog</li>
+        <li>Next time run as administrator to avoid the Windows Defender dialog</li>
     </ul>
 <hr/>
     <p>
@@ -53,7 +58,6 @@
     <p>
         Main Form
     </p>
-    <p><img src="Main2.jpg"/></p>
-<hr/>
+        <img src="Main2.jpg" alt="The applications main form" />
 </body>
 </html>
